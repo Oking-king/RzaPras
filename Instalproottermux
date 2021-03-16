@@ -1,0 +1,12 @@
+Instal Proot untuk root termux:
+Buka aplikasi Termux kalian.
+Install Proot, masukan perintah.
+
+apt-get install proot
+
+Selanjutnya, masukan perintah berikut,
+untuk menjalankan Fakeroot.
+
+proot -0 -w ~ $PREFIX/bin/bash
+
+Sekarang kamu sudah bisa menjalankan tools atau script termux yang membutuhkan akses root pada aplikasi termux kamu.
